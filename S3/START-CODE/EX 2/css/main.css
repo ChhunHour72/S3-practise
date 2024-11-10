@@ -1,0 +1,107 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+}
+nav {
+ 
+    /*  TODO */
+        display: flex; /* Makes this a flex container */
+        justify-content: space-between; /* Distribute nav items evenly with space between */
+        align-items: center; /* Vertically center the items in the nav */
+        box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+        padding: 10px;
+    
+}
+.nav-left {
+    /*  TODO */
+    display: flex; /* Flex container */
+    align-items: center; /* Center items vertically */
+}
+.nav-right {
+    /*  TODO */
+    display: flex; /* Flex container */
+    align-items: center; /* Center items vertically */
+}
+.nav-center {
+    /*  TODO */
+    display: flex; /* Flex container */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    flex: 1; /* Allow this to grow and take the remaining space */
+}
+.nav-center input {
+    width: 90%;
+    padding: 9px;
+}
+.nav-center i {
+    background: #f5ecec;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+header {
+    width: 93%;
+    margin: auto;
+    margin-top: 16px;
+    padding: 10px;
+}
+header span {
+    padding: 10px;
+    background: #e2e0e0;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.active {
+    background: #000;
+    color: #fff;
+}
+.video-container { 
+    /*  TODO */
+    display: flex; /* Flex container */
+    justify-content: space-between; /* Space out video items */
+    flex-wrap: wrap; /* Allow content to wrap if needed */
+    gap: 20px; /* Space between video items */
+    margin: 20px 0;
+}
+.video {
+
+   /*  TODO */
+   display: flex; /* Flex container */
+   flex-direction: column; /* Stack the image and text vertically */
+   align-items: center; /* Center items horizontally */
+   width: 30%; /* Adjust the width of each video item */
+   box-sizing: border-box; /* Prevents overflow */
+ 
+}
+.video-thumbnail img {
+   /*  TODO */
+    width: 100%; /* Make the image fill the container */
+    border-radius: 8px; /* Optional: rounded corners for the image */
+    box-sizing: border-box;
+}
+.video-text {
+  /*  TODO */
+    display: flex; /* Flex container */
+    flex-direction: column; /* Stack title and description vertically */
+    justify-content: space-between; /* Space out title and description */
+    text-align: center; /* Center text */
+    padding: 10px;
+ 
+}
+
+
+.text {
+    line-height: 1.5;
+}
+.text p {
+    margin: 0;
+    margin-top: 10px;
+}
+.text p,
+.text span {
+    color: rgb(105, 102, 102);
+}
+.text strong {
+    font-weight: 500;
+}
